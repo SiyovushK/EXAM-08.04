@@ -113,8 +113,8 @@ public class CarService(DataContext context) : ICarService
             : new Response<GetCarDTO>(getCarDto);
     }
 
-    public async Task<Response<AvailableCarDto>> AvailableCars()
-    {
+    // public async Task<Response<AvailableCarDto>> AvailableCars()
+    // {
         
-    }
+    // }
 }
